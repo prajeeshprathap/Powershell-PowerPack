@@ -17,7 +17,7 @@ Function Get-TeamProjectCollection
 
 	if(-not($Uri))
     {
-		$Uri = "http://tfs.pggm.nl:8080/tfs/defaultcollection"
+		$Uri = "http://mytfsurl/tfs/defaultcollection"
 	}
 
 	[Microsoft.TeamFoundation.Client.TfsTeamProjectCollectionFactory]::GetTeamProjectCollection($Uri)	
